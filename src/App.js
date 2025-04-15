@@ -20,7 +20,7 @@ const App = () => {
             With a strong foundation in both frontend and backend development, I turn ideas into fully functional digital solutions.
             <br></br>
             <a
-              href="dev.jpg"
+              href="Sudeep_python_developer_resume.pdf"
               download
               className="inline-block font-poppins bg-teal-600 hover:bg-teal-500 rounded-none mt-4 px-2 py-2 text-white">
               Download resume</a>
