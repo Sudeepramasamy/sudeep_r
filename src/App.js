@@ -1,6 +1,7 @@
 import React from "react";
 import foodImg from './assets/food.jpg';
 import flower from './assets/flower.jpg';
+import quiz from './assets/quiz.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
@@ -122,6 +123,39 @@ const App = () => {
             </div>
             <div className="flex justify-end gap-6 mt-9 text-3xl text-teal-300">
               <a href="https://github.com/Sudeepramasamy/e-commerce---Flower-shop" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="hover:text-white transition duration-300"></FaGithub></a>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-10 md:items-start items-center mt-24">
+          <div className="md:w-1/2 relative group">
+            <img src={quiz} alt="food tracker"
+              className=" transition-all duration-300"></img>
+            <div className="absolute inset-0 bg-teal-500 opacity-30 group-hover:opacity-0 transition-all duration-500"></div>
+          </div>
+          <div className="md:w-1/2 space-y-4 left-0 md:-ml-28 md:mt-24 z-20">
+            <a
+              href="https://github.com/Sudeepramasamy/quizzz"
+              target="_blank"
+              rel="noopener noreferrer">
+              <h2 className="text-2xl font-bold text-right font-poppins hover:text-teal-300">Quiz app</h2>
+            </a>
+            <p className="bg-deepblue rounded-md p-6  text-gray-400 text-sm font-medium font-poppins">
+            A simple web-based quiz app that allows users to answer multiple-choice questions.
+It tracks scores in real-time and displays results at the end of the quiz.
+The app is built with clean UI for smooth user experience.
+Ideal for learning, practicing, and testing knowledge interactively.
+            </p>
+            <div className="flex flex-wrap justify-end text-xs gap-3 mt-4 text-teal-400 font-medium font-poppins">
+              <span>Python</span>
+              <span>django</span>
+              <span>React JS</span>
+              <span>Tailwind CSS</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div className="flex justify-end gap-6 mt-9 text-3xl text-teal-300">
+              <a href="https://github.com/Sudeepramasamy/quizzz" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="hover:text-white transition duration-300"></FaGithub></a>
             </div>
           </div>
